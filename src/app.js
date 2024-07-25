@@ -46,7 +46,7 @@ const data = {
   ]
 }
 
-fs.writeFile("tree.json", JSON.stringify(tree, null, 2), err => {
+fs.writeFile("src/output/tree.json", JSON.stringify(tree, null, 2), err => {
   if(err)
     console.warn(err);
   else 
@@ -57,7 +57,7 @@ fs.writeFile("tree.json", JSON.stringify(tree, null, 2), err => {
 const transforData = process.env.MOCK === "true" ? data : tree;
 const out = toMarkdown(transforData, { extensions: [mathToMarkdown()] });
 
-fs.writeFile("output.md", out, err => {
+fs.writeFile("src/output/output.md", out, err => {
   if(err)
     console.warn(err);
   else 
@@ -66,7 +66,7 @@ fs.writeFile("output.md", out, err => {
 
 const parsedTree = remark().use(remarkMath).use(remarkMdx).use(remarkGfm).parse(out);
 
-fs.writeFile("parsedTree.json", JSON.stringify(parsedTree, null, 2), err => {
+fs.writeFile("src/output/parsedTree.json", JSON.stringify(parsedTree, null, 2), err => {
   if(err)
     console.warn(err);
   else 

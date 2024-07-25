@@ -11,3 +11,10 @@ Comandos para correr el proyecto.
 > npm i
 > npm run start
 ```
+
+
+## -TODO LIST
+
+<input type="checkbox"> tomar los \n del archivo .md y pueda ser interpretado como un salto de linea en el json
+
+

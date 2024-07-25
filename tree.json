@@ -1,0 +1,293 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "thematicBreak",
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 4,
+          "offset": 3
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "contenido:",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 5
+            },
+            "end": {
+              "line": 2,
+              "column": 11,
+              "offset": 15
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 2,
+          "column": 1,
+          "offset": 5
+        },
+        "end": {
+          "line": 2,
+          "column": 11,
+          "offset": 15
+        }
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "start": null,
+      "spread": false,
+      "children": [
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "content:\r\ndescription: \"# ",
+                  "position": {
+                    "start": {
+                      "line": 3,
+                      "column": 5,
+                      "offset": 21
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 23,
+                      "offset": 53
+                    }
+                  }
+                },
+                {
+                  "type": "inlineMath",
+                  "value": "{\\\\color{rgb(20, 20, 20)}¡Un placer\\_}",
+                  "data": {
+                    "hName": "code",
+                    "hProperties": {
+                      "className": [
+                        "language-math",
+                        "math-inline"
+                      ]
+                    },
+                    "hChildren": [
+                      {
+                        "type": "text",
+                        "value": "{\\\\color{rgb(20, 20, 20)}¡Un placer\\_}"
+                      }
+                    ]
+                  },
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 23,
+                      "offset": 53
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 63,
+                      "offset": 93
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": "    ",
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 63,
+                      "offset": 93
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 67,
+                      "offset": 97
+                    }
+                  }
+                },
+                {
+                  "type": "inlineMath",
+                  "value": "{\\\\color{#bd10e0}verte}",
+                  "data": {
+                    "hName": "code",
+                    "hProperties": {
+                      "className": [
+                        "language-math",
+                        "math-inline"
+                      ]
+                    },
+                    "hChildren": [
+                      {
+                        "type": "text",
+                        "value": "{\\\\color{#bd10e0}verte}"
+                      }
+                    ]
+                  },
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 67,
+                      "offset": 97
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 92,
+                      "offset": 122
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": "    ",
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 92,
+                      "offset": 122
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 96,
+                      "offset": 126
+                    }
+                  }
+                },
+                {
+                  "type": "inlineMath",
+                  "value": "{\\\\color{rgb(20, 20, 20)}\\_de nuevo por aquí!}",
+                  "data": {
+                    "hName": "code",
+                    "hProperties": {
+                      "className": [
+                        "language-math",
+                        "math-inline"
+                      ]
+                    },
+                    "hChildren": [
+                      {
+                        "type": "text",
+                        "value": "{\\\\color{rgb(20, 20, 20)}\\_de nuevo por aquí!}"
+                      }
+                    ]
+                  },
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 96,
+                      "offset": 126
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 144,
+                      "offset": 174
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": " \\n\\nHola mundodo, esto es un nuevo campo, por lo que no es complicado añadirlo, solo espero que se guarde correctamente\\n\"\r\nregister_link:\r\nredirectTo: /register\r\n_template: loginComponent",
+                  "position": {
+                    "start": {
+                      "line": 4,
+                      "column": 144,
+                      "offset": 174
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 30,
+                      "offset": 381
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 5,
+                  "offset": 21
+                },
+                "end": {
+                  "line": 7,
+                  "column": 30,
+                  "offset": 381
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 19
+            },
+            "end": {
+              "line": 7,
+              "column": 30,
+              "offset": 381
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 3,
+          "column": 3,
+          "offset": 19
+        },
+        "end": {
+          "line": 7,
+          "column": 30,
+          "offset": 381
+        }
+      }
+    },
+    {
+      "type": "thematicBreak",
+      "position": {
+        "start": {
+          "line": 8,
+          "column": 1,
+          "offset": 383
+        },
+        "end": {
+          "line": 8,
+          "column": 4,
+          "offset": 386
+        }
+      }
+    }
+  ],
+  "position": {
+    "start": {
+      "line": 1,
+      "column": 1,
+      "offset": 0
+    },
+    "end": {
+      "line": 10,
+      "column": 1,
+      "offset": 390
+    }
+  }
+}

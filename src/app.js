@@ -15,8 +15,6 @@ const tree = fromMarkdown(doc, {
   mdastExtensions: [mathFromMarkdown()],
 });
 
-console.log(JSON.stringify(tree, null, 2));
-
 const data = {
   type: "root",
   children: [
@@ -47,11 +45,30 @@ const data = {
     }
   ]
 }
-const transforData = process.env.MOCK ? data : tree;
+
+fs.writeFile("tree.json", JSON.stringify(tree, null, 2), err => {
+  if(err)
+    console.warn(err);
+  else 
+    console.log("Tree saved");
+});
+
+
+const transforData = process.env.MOCK === "true" ? data : tree;
 const out = toMarkdown(transforData, { extensions: [mathToMarkdown()] });
 
-console.log("output -> ",JSON.stringify(out, null, 2));
+fs.writeFile("output.md", out, err => {
+  if(err)
+    console.warn(err);
+  else 
+    console.log("Output saved");
+});
 
 const parsedTree = remark().use(remarkMath).use(remarkMdx).use(remarkGfm).parse(out);
 
-console.log('Parsed AST ->', JSON.stringify(parsedTree, null, 2));
+fs.writeFile("parsedTree.json", JSON.stringify(parsedTree, null, 2), err => {
+  if(err)
+    console.warn(err);
+  else 
+    console.log("Parsed Tree saved"); 
+});
